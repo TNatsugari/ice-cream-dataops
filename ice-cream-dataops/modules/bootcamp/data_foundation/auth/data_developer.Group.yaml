@@ -77,3 +77,23 @@ capabilities:
       actions: [READ, WRITE]
       scope:
         all: {}
+
+  - diagramParsingAcl:
+      actions: [READ, WRITE]
+      scope:
+        all: {}
+
+  - dataModelsAcl:
+      actions: [READ]
+      scope:
+        all: {}
+
+  - dataModelInstancesAcl:
+      actions: [READ, WRITE]
+      scope:
+        all: {}
+
+  - sessionsAcl:
+      actions: [CREATE]
+      scope:
+        all: {}
